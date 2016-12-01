@@ -1,14 +1,6 @@
 
 $( document ).ready(function() {
-    var carousel = $("#carousel");
-    carousel.carouFredSel({
-        items: {
-            visible: '+1'
-        },
-//        auto: false,
-        width: '100%',
-        scroll: 4
-    });
+
     var portfolioCarousel = $("#portfolio-list");
     portfolioCarousel.carouFredSel({
         items: {
