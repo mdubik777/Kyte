@@ -7,7 +7,7 @@ $( document ).ready(function() {
         },
 //        auto: false,
         width: '100%',
-        scroll: 3
+        scroll: 4
     });
     var portfolioCarousel = $("#portfolio-list");
     portfolioCarousel.carouFredSel({
@@ -101,14 +101,19 @@ $( document ).ready(function() {
     $('a[href^="#"]').bind('click.smoothscroll',function (e) {
         e.preventDefault();
 
-        var target = this.hash,
+        var target = this.hash;
+        if (target == '') {
+            return;
+        } else {
             $target = $(target);
 
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 1000, 'swing', function () {
-            window.location.hash = target;
-        });
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top + 'px'
+            }, 1000, 'swing', function () {
+                window.location.hash = target;
+            });
+        }
+
     });
 
 

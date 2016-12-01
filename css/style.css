@@ -113,6 +113,9 @@ p {	margin: 0 0 14px}
 textarea.txt-field {
     resize: none;
 }
+.wt100 {
+    width: 200px;
+}
 
 
 .txt-field::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease; text-transform: uppercase; color: #a1a1a1;}
@@ -880,6 +883,8 @@ section.blog-box .in-box {
     box-sizing: border-box;
     line-height: 50px;
     margin: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
 }
 
 .main-menu {
@@ -925,9 +930,9 @@ section.blog-box .in-box {
 .main-menu-btn {display: block; cursor: pointer;}
 .main-menu-btn .line {
     width: 34px;
-    height: 2px;
-    background: gray;
-    margin: 7px 6px;
+    height: 3px;
+    background: #1abc9c;
+    margin: 6px auto;
     display: block;
 }
 header .menu-btn {display: block; z-index: 999;}
