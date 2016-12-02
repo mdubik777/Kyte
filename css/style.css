@@ -113,10 +113,6 @@ p {	margin: 0 0 14px}
 textarea.txt-field {
     resize: none;
 }
-.wt100 {
-    width: 200px;
-}
-
 
 .txt-field::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease; text-transform: uppercase; color: #a1a1a1;}
 .txt-field::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease; text-transform: uppercase; color: #a1a1a1;}
@@ -996,7 +992,6 @@ header .menu-btn {display: block; z-index: 999;}
 .columns-box .col p {
     line-height: 27px;
 }
-
 }
 
 

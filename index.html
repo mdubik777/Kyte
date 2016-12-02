@@ -12,10 +12,7 @@
     <link rel="stylesheet" href="css/select2.css"/>
     <link rel="stylesheet" href="css/style.css">
 
-    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
-    <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
-    <script type="text/javascript" src="js/select2.full.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+
 </head>
 
 <body>
@@ -38,8 +35,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#">journal</a></li>
-                        <li><a href="#">features</a></li>
+                        <li><a href="#latestPosts">Latest blog posts</a></li>
                         <li><a href="#contacts">contact</a></li>
                     </ul>
                 </nav>
@@ -134,8 +130,6 @@
                                   Carousel
                 -------------------------------------->
 
-
-
                 <div class="portfolio-list ">
                     <ul id="portfolio-list" class="clearfix">
                         <li>
@@ -168,7 +162,7 @@
         </div>
     </section>
 
-    <section class="blog-box">
+    <section id="latestPosts" class="blog-box">
         <div class="head-box">
             <div class="in-box">
                 <h4>Latest blog posts</h4>
@@ -335,7 +329,7 @@
 
                     <div class="row clearfix">
                         <div class="col custom-select-wrapper">
-                            <select class="wt100 custom-select-search-js" data-placeholder="Choose city">
+                            <select class="custom-select-search-js" data-placeholder="Choose city">
                                 <option></option>
                                 <option value=moscow"">Moscow</option>
                                 <option value="berlin">Berlin</option>
@@ -344,7 +338,7 @@
                             </select>
                         </div>
                         <div class="col custom-select-wrapper">
-                            <select class="wt100 custom-select-js" data-placeholder="Choose age">
+                            <select class="custom-select-js" data-placeholder="Choose age">
                                 <option></option>
                                 <option value="child">15-18years</option>
                                 <option value="young">18-25years</option>
@@ -356,7 +350,7 @@
                 </div>
                 <div class="row">
                     <button class="btn with-icon">
-                    `     <span class="icon icon-direction"></span>
+                        <span class="icon icon-direction"></span>
                         <span class="text">submit</span>
                     </button>
                 </div>
@@ -369,8 +363,6 @@
                 <!--------------------------------------------
                                      Footer
                  ----------------------------------------------->
-
-
 
 
     <footer class="footer">
@@ -398,5 +390,10 @@
             </li>
         </ul>
     </footer>
+
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script type="text/javascript" src="js/select2.full.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

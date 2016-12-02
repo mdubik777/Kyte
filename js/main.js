@@ -40,14 +40,16 @@ $( document ).ready(function() {
     allSelects.select2({
         minimumResultsForSearch: -1,
         dropdownCssClass: 'custom-select-dropdown',
-        containerCssClass: 'no-search-select-wrap'
+        containerCssClass: 'no-search-select-wrap',
+        width: '100%'
     });
 
 
     var allSelectsWithSearch = $(".custom-select-search-js");
 
     allSelectsWithSearch.select2({
-        dropdownCssClass: 'custom-select-dropdown'
+        dropdownCssClass: 'custom-select-dropdown',
+        width: '100%'
     });
 
 
@@ -89,30 +91,17 @@ $( document ).ready(function() {
 
     });
 
-
-    $('a[href^="#"]').bind('click.smoothscroll',function (e) {
-        e.preventDefault();
-
-        var target = this.hash;
-        if (target == '') {
-            return;
-        } else {
-            $target = $(target);
-
+    $('a[href^="#"]').bind('click.smoothscroll',function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
             $('html, body').stop().animate({
-                'scrollTop': $target.offset().top + 'px'
-            }, 1000, 'swing', function () {
-                window.location.hash = target;
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+                window.location.hash = hash;
             });
         }
 
     });
-
-
-
-
-
-
-
 });
 
