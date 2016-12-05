@@ -7,7 +7,7 @@ $( document ).ready(function() {
             visible: '+1'
         },
         scroll: {
-            items: 2,
+            items: 1,
             duration: 1000,
             timeoutDuration: 1000
         }
