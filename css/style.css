@@ -7,18 +7,13 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
-/*button, input, select, textarea { font-family: inherit!important;}*/
-
-
 html, body, h1, h2, h3, h4, h5, h6, p, em, strong, abbr, acronym, blockquote, q, cite, ins, del, dfn, a, div, span, pre, hr, address, br, b, i, sub, sup, big, small, tt, table, tr, caption, thead, tbody, tfoot,
 col, colgroup, form, input, label, textarea, button, fieldset, legend, select, option, optiongroup, ul, ol, li, dl, dt, dd, code, var, kdb, samp, img, object, param, map, area, bdo, iframe, article, aside, canvas,
 details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video  {
     padding:0; margin:0; outline:0; font-size:100%;
 }
 
-
 a:focus	{ -moz-outline-style:none; }
-
 
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* text mobile */
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -95,8 +90,6 @@ p {	margin: 0 0 14px}
     left: 24px;
     top: 9px;
 }
-
-
 .txt-field {
     background: rgba(255, 255, 255, 0.11);
     border: none;
@@ -109,7 +102,6 @@ p {	margin: 0 0 14px}
     display: inline-block;
     box-sizing: border-box;
 }
-
 textarea.txt-field {
     resize: none;
 }
@@ -131,7 +123,6 @@ textarea.txt-field {
 .custom-checkbox input[type="checkbox"] {
     display: none;
 }
-
 .custom-checkbox input[type="checkbox"] + label {
     color: #adadad;
     font-size: 12px;
@@ -152,11 +143,9 @@ textarea.txt-field {
     line-height: 25px;
     color: #3f8dbf;
 }
-
 .custom-checkbox input[type="checkbox"] + label i:before {
     display: none;
 }
-
 .custom-checkbox input[type="checkbox"] + label span {
     display: inline-block;
     line-height: 25px;
@@ -169,8 +158,6 @@ textarea.txt-field {
 /*---------------------------------------------------------------
               radio
 --------------------------------------------------------------*/
-
-
 
 .custom-radio input[type="radio"] {
     display: none;
@@ -207,20 +194,16 @@ textarea.txt-field {
     display: block;
 }
 
-
-
-
 /*-------------------------------------------------
                 custom selects
 -----------------------------------------------------*/
+
 .custom-select-wrapper {
     font-family: 'Lato', sans-serif;
-
 }
 .custom-select-wrapper .select2-container .select2-selection--single {
     height: 50px;
 }
-
 .custom-select-wrapper .select2-container--default .select2-selection--single {
     border-radius: 0;
     background: rgba(255, 255, 255, 0.11);
@@ -230,9 +213,7 @@ textarea.txt-field {
     line-height: 45px;
     color:  #a1a1a1;
     padding-left: 18px;
-
 }
-
 .custom-select-wrapper .select2-container--default .select2-selection--single .select2-selection__placeholder {
     font-weight: 900;
     font-size: 12px;
@@ -245,11 +226,9 @@ textarea.txt-field {
 .custom-select-wrapper .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
     border-color: transparent transparent white transparent;
 }
-
 .custom-select-wrapper .select2-container--default .select2-selection--single .select2-selection__arrow b {
     border-color: white transparent transparent transparent;
 }
-
 .custom-select-dropdown.select2-dropdown {
     background: #50504F;
     border-color: transparent;
@@ -258,12 +237,10 @@ textarea.txt-field {
     padding: 6px 18px;
     color: #ffffff;
     font-size: 12px;
-
 }
 .custom-select-dropdown .select2-container--default .select2-results__option--highlighted[aria-selected] {
     background-color: #3f8dbf ;
 }
-
 
 /*-------------------------------------------------
                 COMMON STYLES
@@ -274,7 +251,6 @@ textarea.txt-field {
     display: table;
     clear: both;
 }
-
 .in-box {
     max-width: 1170px;
     margin: 0 auto;
@@ -286,7 +262,6 @@ section {
 section .head-box {
     background: #1abc9c;
     margin-bottom: 76px;
-
 }
 .head-box h4 {
     color: white;
@@ -296,19 +271,9 @@ section .head-box {
     line-height: 34px;
     padding: 28px 0;
 }
-/*.head-box .triangle {*/
-    /*width: 0;*/
-    /*height: 0;*/
-    /*border: solid 9px transparent;*/
-    /*border-top: solid 8px #1abc9c;*/
-    /*position: absolute;*/
-    /*left: 60px;*/
-/*}*/
-
 .head-box .in-box {
     position: relative;
 }
-
 .head-box .in-box:after {
     content: '';
     display: block;
@@ -320,7 +285,6 @@ section .head-box {
     left: 60px;
     bottom: -17px;
 }
-
 
 /*-------------------------------------------------
                 HEADER STYLES
@@ -357,7 +321,6 @@ section .head-box {
     text-decoration: none;
     font-size: 13px;
     font-weight: 900;
-
 }
 .main-menu ul li a:hover {
     color: #1abb9c ;
@@ -418,10 +381,10 @@ section .head-box {
     font-size: 35px;
     text-align: center;
 }
-
 .social-bar li a > span {
     line-height: 50px;
 }
+
 /*------------------------------------------
             about-box
 --------------------------------------------*/
@@ -458,11 +421,9 @@ section .head-box {
     padding: 15px;
     box-sizing: border-box;
 }
-
 .about-box .columns-box .col:nth-child(2) {
     width: 33.34%;
 }
-
 .about-box .columns-box .col:first-child {
     padding-left:0;
 }
@@ -479,7 +440,6 @@ section .head-box {
 }
 .columns-box .col p {
     margin: 0;
-
 }
 .about-box .control-box {
     padding-top: 40px;
@@ -502,7 +462,6 @@ section.portfolio-box {
     margin-bottom: 45px;
     color: #ffffff;
 }
-
 .list_carousel {
     margin: 0 0 60px;
 }
@@ -519,22 +478,21 @@ section.portfolio-box {
     display: block;
     float: left;
 }
-
 .list_carousel li img {
     max-height: 250px;
     max-width: 500px;
 }
 .portfolio-box .portfolio-list {
     overflow: hidden;
+    height: 400px;
 }
 .portfolio-box .portfolio-list ul {
-    height: 600px;
+    height: 540px;
     overflow: hidden;
-
 }
 .portfolio-box .portfolio-list li {
     min-width: 400px;
-    height: 600px;
+    height: 400px;
     float: left;
     margin: 0 5px;
     background: #828282;
@@ -542,23 +500,9 @@ section.portfolio-box {
 .portfolio-box .portfolio-list li img.w400 {
     width: 400px;
 }
-.portfolio-box .portfolio-list li img.w280 {
-    width: 444px;
+.portfolio-box .portfolio-list li img.w401 {
+    width: 401px;
 }
-.portfolio-box .portfolio-list li img.w620 {
-    width: 620px;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 /*------------------------------------------
             blog-box
@@ -588,14 +532,11 @@ section.blog-box {
     background: white;
     border-bottom: 4px solid #e4e4e4;
 }
-
 .blog-item-wrapper .picture img {
     width: 100%;
     height: 100%;
     overflow: auto;
-
 }
-
 .blog-item-wrapper .panel {
     background: #f9f9f9;
     padding: 25px 25px 22px;
@@ -657,9 +598,6 @@ section.blog-box {
     margin-bottom: 0;
 }
 
-
-
-
 /*------------------------------------------
             contact-box
 --------------------------------------------*/
@@ -677,7 +615,6 @@ section.contact-box {
 .contact-box .form-box .row .custom-radio + .custom-radio{
     margin-left: 20px;
 }
-
 .contact-box .form-box .row .txt-field {
     width: 100%;
 }
@@ -688,7 +625,6 @@ section.contact-box {
 .contact-box .form-box .row .col:first-child {
     padding-right: 10px;
     box-sizing: border-box;
-
 }
 .contact-box .form-box .row .col:last-child {
     padding-left: 10px;
@@ -704,7 +640,6 @@ section.contact-box {
     box-sizing: border-box;
     color: #d9d9d9;
 }
-
 .contact-box .details-box h6 {
     font-size: 16px;
     font-weight: 900;
@@ -722,7 +657,6 @@ section.contact-box {
     top: 10px;
     font-size: 12px;
 }
-
 
 /*----------------------------------------
             footer
@@ -745,9 +679,6 @@ section.contact-box {
     background: none;
     font-size: 33px;
 }
-
-
-
 
 /*-------------------------------------------------
             icomoon fonts
@@ -838,8 +769,12 @@ section.contact-box {
 ========================================================================== */\
 
 @media only screen and (max-width: 1280px) {
-section .in-box {padding: 0 20px;}
-footer .in-box {padding: 0 20px;}
+section .in-box {
+    padding: 0 20px;
+}
+footer .in-box {
+    padding: 0 20px;
+}
 section.blog-box .in-box {
     padding: 0 20px;
 
@@ -852,21 +787,25 @@ section.blog-box .in-box {
 ========================================================================== */
 
 @media only screen and (max-width: 1024px) {
-    section .in-box {padding: 0 20px;}
-    footer .in-box {padding: 0 20px;}
+section .in-box {
+    padding: 0 20px;
+}
+footer .in-box {
+    padding: 0 20px;
+}
 
 .blog-item-wrapper .panel {
     padding: 10px 10px 10px;
 }
-
 }
 /* ==========================================================================
    Media Queries 960
 ========================================================================== */
 
 @media only screen and (max-width: 960px) {
-.head-box h4 { font-size: 16px;}
-
+.head-box h4 {
+    font-size: 16px;
+}
 .main-menu-btn {
     width: 50px;
     height: 50px;
@@ -882,7 +821,6 @@ section.blog-box .in-box {
     border-radius: 5px;
     border: 2px solid gray;
 }
-
 .main-menu {
     display: block;
     float: none;
@@ -902,7 +840,6 @@ section.blog-box .in-box {
 }
 .main-menu .nav li:hover:last-child {
     margin-right: 0;
-
 }
 .main-menu ul li:hover {
     background: #1abb9c;
@@ -911,7 +848,6 @@ section.blog-box .in-box {
 .main-menu ul li a:hover {
         color: black ;
 }
-
 .main-menu ul li {float: none;}
 .main-menu ul li a { font-size: 10px;}
 .contact-box .details-box {
@@ -919,11 +855,24 @@ section.blog-box .in-box {
     width: 100%;
     padding-left: 20px;
 }
-.about-box .info-box {text-align: center}
-.about-box .pic-box {float: none; display: inline-block;}
-.about-box .description  {margin-left: 0; text-align: left;}
-.contact-box .details-box { margin-bottom: 30px;}
-.main-menu-btn {display: block; cursor: pointer;}
+.about-box .info-box {
+    text-align: center
+}
+.about-box .pic-box {
+    float: none;
+    display: inline-block;
+}
+.about-box .description  {
+    margin-left: 0;
+    text-align: left;
+}
+.contact-box .details-box {
+    margin-bottom: 30px;
+}
+.main-menu-btn {
+    display: block;
+    cursor: pointer;
+}
 .main-menu-btn .line {
     width: 34px;
     height: 3px;
@@ -931,9 +880,25 @@ section.blog-box .in-box {
     margin: 6px auto;
     display: block;
 }
-header .menu-btn {display: block; z-index: 999;}
-.main-menu-action {display: block; position: absolute;  width: 100%; top: 78px; overflow: hidden; height: 0; left: 0; -webkit-transition: all 300ms ease-in-out;-moz-transition: all 300ms ease-in-out;transition: all 300ms ease-in-out;}
-.main-menu-action.open {height: 220px;}
+header .menu-btn {
+    display: block;
+    z-index: 999;
+}
+.main-menu-action {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 78px;
+    overflow: hidden;
+    height: 0;
+    left: 0;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.main-menu-action.open {
+    height: 220px;
+}
 .blog-item-wrapper .info-box .title {
     font-size: 14px;
     line-height: 20px;

@@ -13,7 +13,8 @@ $( document ).ready(function() {
         }
     });
 
-/*  init menu btn  */
+// init menu btn
+
     var menuNavBtn = $('.menu-btn-action');
 
 
@@ -31,9 +32,7 @@ $( document ).ready(function() {
     });
 
 
-    /* ---------------------------------------------
-                    init select
-      ----------------------------------------------2  */
+//init select
 
     var allSelects = $(".custom-select-js");
 
@@ -44,7 +43,6 @@ $( document ).ready(function() {
         width: '100%'
     });
 
-
     var allSelectsWithSearch = $(".custom-select-search-js");
 
     allSelectsWithSearch.select2({
@@ -53,12 +51,7 @@ $( document ).ready(function() {
     });
 
 
-
-    /*----------------------------------------------------
-                Checkbox
-    -----------------------------------------------------
-     */
-
+//Checkbox
 
     var addInfoCheckbox = $("#add-info-chb");
 
@@ -85,9 +78,6 @@ $( document ).ready(function() {
 //        } else {
 //            addInfoWrapper.slideUp();
 //        }
-
-
-
 
     });
 
